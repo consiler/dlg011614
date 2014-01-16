@@ -1,4 +1,4 @@
-<?php define('MINIFY', 1); ?>
+<?php define('MINIFY', 0); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="no-js ie ie6 lte7 lte8 lte9" dir="<?php bloginfo('text_direction'); ?>" <?php language_attributes(); ?>><![endif]-->
 <!--[if IE 7 ]><html class="no-js ie ie7 lte7 lte8 lte9" dir="<?php bloginfo('text_direction'); ?>" <?php language_attributes(); ?>><![endif]-->
