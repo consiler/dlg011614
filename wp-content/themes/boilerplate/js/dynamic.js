@@ -23,7 +23,7 @@ $(document).ready(function(){
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
-          $('html,body').animate({
+          $('html,documentElement').animate({
             scrollTop: target.offset().top - menuHeight + 1
           }, 1000);
           return false;
