@@ -50,7 +50,11 @@ get_header(); ?>
   </div>
   <?php endwhile; ?>
 </div>
+<?php if(!MINIFY) { ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/glide.js"></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/scrollspy.js'></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/dynamic.js"></script>
+<?php } else { ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/fancy.cat.min.js"></script>
+<?php } ?>
 <?php get_footer(); ?>
