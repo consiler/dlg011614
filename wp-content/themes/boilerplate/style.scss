@@ -1,0 +1,38 @@
+/*
+Theme Name: Dialog Group
+Author: Maxwell Ponte and Sanford Morton
+Version: 2.6
+*/
+
+$font-stack: "pragmatica-web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$nav-font-stack: Arial, sans-serif;
+$heading-font-stack: hvnStd_LiteCn, "pragmatica-web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+/* Colors from the official Dialog branding document */
+$dialogblue: #518fcc;
+$dialogbrown: #572700;
+$red: #b42d38;
+$orange: #e47f26;
+$yellow: #f4c017;
+$green: #becb31;
+$blue: #007489;
+$grey: #6d6e71;
+$grey2: #939598;
+$grey3: #bcbec0;
+$grey4: #e6e7e8;
+$beige: #c5c19d;
+$beige2: #e1dcc9;
+$beige3: #f4f1e9;
+
+/* additional common colors */
+$electric-blue: #59bce1;
+
+/* Quick Access Variables */
+$footer-height: 200px;
+$footer-margin: 45px;
+
+
+@import 'normalize', 'basic', 'cta', 'logo', 'social', 'topnav',
+        'slideshow', 'fp-testimonials', 'three-column', 'internal-header',
+        'internal-content', 'footer', 'our-story', 'leadership', 'k12',
+        'career-page','internal-sidebar','sliders','hied','scrollspy/scss/flexible_layouts','block-grid';

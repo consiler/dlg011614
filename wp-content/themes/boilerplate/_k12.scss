@@ -1,0 +1,33 @@
+#k12-wrap {
+  color: #787878;
+  font-weight: 400;
+  h2 {
+    font-weight: 200;
+    font-family: $font-stack;
+    color: #979696;
+    padding: 15px 0;
+    font-size: 30pt;
+  }
+  p {
+    font-size: 11pt;
+  }
+  h5 {
+    color: #518fcc;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+#k12-intro {
+  padding-top: 15px;
+  padding-left: 455px;
+  padding-right: 45px;
+  height: 520px;
+  background-image: url(images/k12/k12_section1_bg.jpg);
+}
+#k12-faculty {
+  padding-top: 15px;
+  padding-right: 500px;
+  padding-left: 180px;
+  height: 410px;
+  background-image: url(images/k12/k12_section3_bg.jpg);
+}

@@ -1,0 +1,101 @@
+#internal-main {
+    float: left;
+    width: 741px; /* used to be 762 */
+    overflow: hidden;
+}
+#internal-main-header {
+    padding-left: 180px;
+}
+#internal-main-content {
+    float: left;
+    width: 552px;
+    padding-top: 43px;
+    padding-right: 20px;
+    padding-left: 35px;
+    padding-bottom: 60px;
+    color: #787878;
+    &.secondary {
+        width: 632px;
+        padding-top: 30px;
+        margin-left: 130px;
+    }
+}
+#internal-lower-wrap {
+    overflow: hidden;
+    width: 100%;
+}
+#internal-lower.shadow {
+    margin-bottom: 60px;
+    box-shadow: 1px 1px 3px #ddd;
+}
+#internal-lower {
+    overflow: hidden;
+    b {
+        font-weight: bold;
+    }
+    ul {
+        list-style: disc outside none;
+        color: #787878;
+        li {
+            margin: 15px 0;
+            margin-left: 15px;
+            font-size: 11pt;
+        }
+    }
+    #three-column > ul {
+        list-style: none;
+        & > li {
+            margin: inherit;
+        }
+    }
+    h2 {
+        color: #5197b4;
+        font-family: $heading-font-stack;
+        font-size: 20pt;
+        padding-top: 10px;
+        letter-spacing: .04em;
+    }
+    p {
+        padding: 10px 0;
+        font-size: 11pt;
+    }
+    em {
+        font-style: italic;
+    }
+    h5 {
+        font-size: 13px;
+    }
+}
+
+#internal-main-nav {
+    float: left;
+    width: 140px;
+    padding-left: 5px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    & > ul > li {
+        padding-bottom: 15px;
+        list-style: none!important;
+        & > a {
+            color: #7e7e7d;
+            text-transform: uppercase;
+            font-size: 10.5pt;
+            &:hover {
+                color: #000;
+            }
+            &.current-page {
+                color: #156dc3;
+                cursor: default;
+            }
+        }
+    }
+}
+
+/* Used on pages with no sidebar */
+.internal-main-content-fullwidth {
+    width: 884px!important;
+}
+.internal-main-fullwidth {
+    width: 1024px!important;
+}

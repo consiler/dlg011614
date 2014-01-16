@@ -1,0 +1,33 @@
+#three-column > ul {
+    list-style: none;
+    li {
+        margin: inherit;
+    }
+}
+#three-column {
+    padding-top: 30px;
+    overflow: hidden; 
+}
+#three-column .row {
+    margin-top: 35px;
+}
+.threecolumn-cell {
+    padding-left: 70px!important;
+}
+.threecolumn-cell p {
+    color: #33332f;
+    font-family: $font-stack;
+}
+.threecolumn-cell span {
+    margin-top: 15px;
+}
+.threecolumn-cell h4 {
+    color: #5197b4;
+    font-family: $heading-font-stack;
+    font-size: 18pt;
+    letter-spacing: .04em;
+    padding-bottom: 4px;
+}
+h4.cs {
+    text-transform: uppercase;
+}

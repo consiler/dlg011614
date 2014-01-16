@@ -1,0 +1,214 @@
+/*Begin Generic Layout Variables*/
+.single-copy{
+    padding-top: 50px;
+    padding-left: 180px;
+    padding-right: 360px;
+    h2 {
+      font-size: 40pt;
+    }
+}
+/*End Generic Layout Variables*/
+
+.slider > ul > li {
+  list-style: none!important;
+  margin: 0!important;
+}
+
+/*Begin Broad Flex Layout Styles*/
+#anchor-bar-wrap {
+  background-color: #dbdbdb;
+  width: 100%;
+}
+#anchor-bar {
+  height: 30px;
+  margin: 0 auto;
+  li {
+    &.active > a {
+      color: #333;
+    }
+    &:first-child {
+      margin-left: 0;
+      border-left: none;
+    }
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    height: 30px;
+    line-height: 20px;
+    border-left: 1px #c6c5c5 solid;
+    a {
+      font-size: 10pt;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}
+#anchor-bar-wrap.fixed {
+  top: 0;
+  position: fixed;
+  z-index: 9999999999;
+}
+#anchor-bar-wrap.fixed + div {
+  padding-top: 30px;
+}
+/*End Broad Flex Layout Styles*/
+
+
+/*Begin Open Door Page Stlyes*/
+#open-door-wrap {
+    h2 {
+    font-weight: 200;
+    font-family: $font-stack;
+    color: #979696;
+    padding: 15px 0;
+    }
+
+  #first {
+    padding-top: 75px;
+    padding-left: 180px;
+    padding-right: 360px;
+    h2 {
+      font-size: 50pt;
+    }
+  }
+
+  #second {
+    padding-top: 130px;
+    padding-left: 64px;
+    padding-right: 670px;
+    h2 {
+      color: #fff;
+      font-size: 30pt;
+    }
+    p {
+      color: #efefef;
+    }
+  }
+
+  #promo-slider .promo-slide {
+    padding-top: 130px;
+    padding-left: 290px;
+    padding-right: 390px;
+    address {
+      font-style: italic;
+      font-size: 10pt;
+      line-height: 1.5em;
+    }
+  }
+
+}
+/*End Open Door Page Stlyes*/
+
+/*
+ | ------------------------------------------
+ | Glide styles
+ | ------------------------------------------
+ | Here are slider styles
+ | 
+*/
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+  .slides {
+    height: 100%;
+    
+    /* Simple clear fix */
+    overflow: hidden;
+    
+    /** 
+     * Prevent blinking issue
+     * Not tested. Experimental.
+     */
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+
+    /**
+     * Here is CSS transitions 
+     * responsible for slider animation in modern broswers
+     */
+    -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+         -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+            transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  }
+  
+    .slide {
+      height: 100%;
+      float: left;
+      clear: none;
+    }
+
+
+  .slider-arrows { display: none; }
+
+    .slider-arrow {
+      position: absolute;
+      display: block;
+      margin-bottom: -20px;
+      padding: 20px;
+    }
+
+      .slider-arrow--right { bottom: 50%; right: 30px; }
+      .slider-arrow--left { bottom: 50%; left: 30px; }
+
+
+  .slider-nav {
+    position: absolute;
+    bottom: 101px;
+    z-index: 9999;
+  }
+
+    .slider-nav__item {
+      width: 16px;
+      height: 16px;
+      border-radius: 8px;
+      float: left;
+      clear: none;
+      display: block;
+      margin: 0 5px;
+      background: #cccecf;
+    }
+
+        .slider-nav__item:hover { background: #59bce1; }
+        .slider-nav__item--current { background: #59bce1; }
+
+#faculty-wrap {
+  color: #787878;
+  font-weight: 400;
+  h2 {
+    font-weight: 200;
+    font-family: $font-stack;
+    color: #979696;
+    padding: 15px 0;
+    font-size: 30pt;
+  }
+  p {
+    font-size: 11pt;
+  }
+  h5 {
+    color: #518fcc;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+#faculty-intro {
+  padding-top: 60px;
+  padding-left: 150px;
+  padding-right: 340px;
+}
+#faculty-mid {
+  h2, * {
+    color: #fff;
+  }
+  padding-top: 60px;
+  padding-left: 190px;
+  padding-right: 420px;
+}

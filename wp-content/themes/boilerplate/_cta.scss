@@ -1,0 +1,20 @@
+.grey-button {
+    color: #464e52;
+    display: inline-block;
+    font-size: 10pt;
+    letter-spacing: 0.07em;
+    line-height: 38px;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+span.light-grey-button {
+    @extend .grey-button;
+    background-color: #c4bfbf;
+    background-color: rgba(196, 191, 191, 0.3);
+}
+span.lighter-grey-button {
+    @extend .grey-button;
+    background-color: #ebeaea;
+    background-color: rgba(235, 234, 234, 0.7);
+}

@@ -1,0 +1,100 @@
+#hied-wrap {
+  color: #787878;
+  font-weight: 400;
+  h2 {
+    font-weight: 200;
+    font-family: $font-stack;
+    color: #979696;
+    padding: 15px 0;
+    font-size: 28pt;
+  }
+  p {
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+  h5 {
+    color: #518fcc;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  li{
+    font-size: 13px;
+    line-height: .5em;
+  }
+}
+#hied-intro {
+  h2 {
+    font-size: 46pt;
+    padding-bottom: 0;
+  }
+  padding-left: 180px;
+  padding-right: 380px;
+  padding-top: 25px;
+  height: 394px;
+  background-image: url(images/hied/hied_introduction.jpg);
+}
+#hied-faculty {
+  padding-top: 15px;
+  padding-right: 550px;
+  padding-left: 180px;
+  height: 407px;
+  background-image: url(images/hied/hied_faculty.jpg);
+}
+#hied-opportunity {
+  padding-left: 180px;
+  padding-right: 90px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background: #f3f3f4;
+  background: -moz-linear-gradient(top,  #f3f3f4 0%, #e9eaea 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f4), color-stop(100%,#e9eaea));
+  background: -webkit-linear-gradient(top,  #f3f3f4 0%,#e9eaea 100%);
+  background: -o-linear-gradient(top,  #f3f3f4 0%,#e9eaea 100%);
+  background: -ms-linear-gradient(top,  #f3f3f4 0%,#e9eaea 100%);
+  background: linear-gradient(to bottom,  #f3f3f4 0%,#e9eaea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f4', endColorstr='#e9eaea',GradientType=0 );
+}
+#hied-opportunity-main {
+  overflow: hidden;
+}
+#hied-opportunity-stats-wrap {
+  width: 225px;
+  float: left;
+}
+#hied-opportunity-copy {
+  float: right;
+  width: 480px;
+}
+#hied-opportunity-promos {
+  margin-top: 10px;
+  overflow: hidden;
+}
+#hied-opportunity-promos-tile-1 {
+  width: 283px;
+  float: left;
+  height: 300px;
+}
+#hied-opportunity-promos-tile-2 {
+  width: 385px;
+  float: right;
+  img {
+    display: block;
+  }
+}
+.huge-text + p {
+  text-transform: uppercase;
+  color: $dialogblue;
+  line-height: 17px;
+  padding: 0!important;
+}
+.huge-text {
+  color: $dialogblue;
+  font-weight: 200;
+  font-size: 86px;
+  text-align: left;
+}
+.seperator {
+  background-color: #e7e7e7;
+  height: 3px;
+  margin: 20px 0;
+}

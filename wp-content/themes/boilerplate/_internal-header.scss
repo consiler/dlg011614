@@ -1,0 +1,96 @@
+.abstract-internal-header-wrap {
+    background: #045c83; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #045c83 25%, #023b55 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(25%,#045c83), color-stop(100%,#023b55)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #045c83 25%,#023b55 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#045c83', endColorstr='#023b55',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.abstract-internal-header {
+    overflow: hidden;
+    height: 100%;
+}
+#large-internal-header-wrap {
+    height: 455px;
+    @extend .abstract-internal-header-wrap;
+}
+#large-internal-header {
+    @extend .abstract-internal-header;
+}
+#large-internal-header-text {
+    float: left;
+    margin-top: 65px;
+    padding-left: 130px;
+    padding-top: 40px;
+    margin-left: 50px;
+    & > h1 {
+        font-family: $font-stack;
+        font-weight: 200;
+        font-size: 37pt;
+    }
+    & > p {
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: 200;
+        letter-spacing: .04em;
+    }
+    span {
+        margin-top: 20px;
+    }
+}
+
+/* Internal Header */
+
+#internal-header-wrap {
+    height: 236px;
+    @extend .abstract-internal-header-wrap;
+}
+#internal-header {
+    @extend .abstract-internal-header;
+}
+#internal-header-text {
+    float: left;
+    width: 570px;
+    padding-left: 180px;
+    padding-top: 40px;
+    & > h1 {
+        font-family: $font-stack;
+        color: #b4c1cf;
+        font-weight: 200;
+        font-size: 37pt;
+    }
+    & > p {
+        font-family: $font-stack;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 200;
+        letter-spacing: .04em;
+    }
+}
+$arrow-size: 30px;
+.arrow {
+    width: 0; 
+    height: 0;
+    display: block;
+    position: relative;
+    top: 90px;
+}
+#right-link {
+    float: right;
+    border-top: $arrow-size solid transparent;
+    border-bottom: $arrow-size solid transparent;
+    border-left: $arrow-size solid #fff;
+    border-left: $arrow-size solid rgba(255,255,255,0.5);
+    right: 20px;
+}
+#left-link {
+    float: left;
+    clear: left;
+    border-top: $arrow-size solid transparent;
+    border-bottom: $arrow-size solid transparent; 
+    border-right: $arrow-size solid #fff;
+    border-right: $arrow-size solid rgba(255,255,255,0.5);
+    left: 20px;
+}

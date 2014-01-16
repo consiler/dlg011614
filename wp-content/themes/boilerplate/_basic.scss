@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'hvnStd_LiteCn';
+    src: url('fonts/helveticaneueltstd-ltcn-webfont.eot'),
+         url('fonts/helveticaneueltstd-ltcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneueltstd-ltcn-webfont.woff') format('woff'),
+         url('fonts/helveticaneueltstd-ltcn-webfont.ttf') format('truetype'),
+         url('fonts/helveticaneueltstd-ltcn-webfont.svg#helvetica_neue_lt_std47LtCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+   font-family: $font-stack;
+   font-weight: 300;
+   height: 100%;
+   min-height: 100%;
+   background-color: #fafafa;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0px auto (-1 * $footer-height);
+}
+.push {
+  height: $footer-height;
+}
+a {
+    text-decoration: none;
+}
+b, strong {
+  font-weight: bold;
+}
+p {
+    line-height: 1.3em;
+    color: #787878;
+}
+blockquote {
+    font-style: italic; 
+    border-left: 4px solid #ccc;
+    margin: 30px 0 0px 15px;
+    padding-left: 15px;
+    background: #f9f9f9;
+}
+.centered {
+    width: 1024px;
+    margin: 0 auto;
+}
+.huge-text {
+  font-size: 100px;
+  text-align: center;
+}

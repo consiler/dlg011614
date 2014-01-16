@@ -1,0 +1,118 @@
+/* $bullet-list-max-length >= 2 */
+$bullet-list-max-length: 9;
+$bullet-list-max-width: 180px;
+$bullet-diameter: 25px;
+
+$sub-slider-bullet-diameter: 10px;
+.orbit-glowing-bullets {
+  margin-left: -90px;
+  left: 50%;
+  position: absolute;
+  top: 40px;
+  float: none;
+  text-align: center;
+  display: inline-block;
+  z-index: 1010;
+  height: $bullet-diameter;
+  background-image: url(images/bullet-stripe.gif);
+  background-position: center;
+  background-repeat: repeat-x;
+  li {
+    float: left;
+    cursor: pointer;
+    background-image: url(images/slider-bullet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: $bullet-diameter;
+    color: #fff;
+    font-weight: 200;
+    font-size: 11px;
+    width: $bullet-diameter;
+    height: $bullet-diameter;
+    overflow: hidden;
+    &.active {
+      background-image: url(images/slider-bullet-active.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &:first-child {
+      margin-left: -4px;
+    }
+    &:last-child {
+      margin-right: -4px;
+    }
+    &:last-child:after {
+      clear: left;
+    }
+    /* evenly spaces the bullets */
+    @for $i from 2 through $bullet-list-max-length {
+      &:first-child:nth-last-child(#{$i}) ~ li {
+        margin-left: ($bullet-list-max-width - $bullet-diameter) / ($i - 1);
+      }
+    }
+  }
+}
+.promo-slide {
+  overflow: hidden;
+  height: 505px;
+  padding-left: 180px;
+  padding-right: 100px;
+  padding-top: 90px;
+  background: #f6f6f6;
+  background: -moz-linear-gradient(top,  #f6f6f6 0%, #e9e9ea 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#e9e9ea));
+  background: -webkit-linear-gradient(top,  #f6f6f6 0%,#e9e9ea 100%);
+  background: -o-linear-gradient(top,  #f6f6f6 0%,#e9e9ea 100%);
+  background: -ms-linear-gradient(top,  #f6f6f6 0%,#e9e9ea 100%);
+  background: linear-gradient(to bottom,  #f6f6f6 0%,#e9e9ea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#e9e9ea',GradientType=0 );
+}
+.promo-slide-tile-slider-wrap {
+  width: 283px;
+  float: right;
+}
+.promo-slide-tile-slider {
+  position: relative;
+  overflow: auto;
+  & > ul > li {
+    list-style: none!important;
+    margin: 0!important;
+    float: left;
+  }
+}
+.dots {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  overflow: hidden;
+}
+.dot {
+  background-color: #cccecf;
+  width: $sub-slider-bullet-diameter;
+  height: $sub-slider-bullet-diameter;
+  border-radius: $sub-slider-bullet-diameter / 2;
+  float: left;
+  margin-left: 5px;
+  text-indent: -99999px;
+  cursor: pointer;
+  &.active {
+    background-color: $electric-blue;
+  }
+}
+.promo-slide-imgwrap {
+  height: 283px;
+  overflow: hidden;
+  position: relative;
+  & > img {
+    position: absolute;
+    top: 0;
+  }
+}
+.promo-slide-text {
+  width: 445px;
+  float: left;
+  ul > li {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+  }
+}

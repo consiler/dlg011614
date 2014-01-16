@@ -1,0 +1,242 @@
+#career-page {
+  margin-top:50px;
+
+  h2 {
+    font-size:20pt;
+    text-align:left;
+    color:#787878;
+    margin: 0 25px;
+    line-height: 1.25em;
+  }
+  #value{
+    padding-top:50px;
+  }
+  #value h2{
+
+  font-size: 36px;
+  line-height: 0.667;
+  text-align: center;
+  padding-top:25px;
+  
+  }
+  #value h3{
+  font-size: 28px;
+  color:#787878;
+  line-height: 0.857;
+  text-align: center;
+  padding:25px;
+}
+ #threecoulumn{
+  padding-bottom:30px;
+ }
+  .threecolumn-cell h4{ // hides the "Empty" header from 3 col layout
+    display:none;
+  }
+  .threecolumn-cell .blue{
+    color: #5197b4;
+    font-family: hvnStd_LiteCn, "pragmatica-web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18pt;
+    letter-spacing: .04em;
+  }
+  .threecolumn-cell p {
+    color: #787878;
+  }
+
+  .career-learn-more-button {
+    color: #fff;
+    display: inline-block;
+    font-size: 19pt;
+    letter-spacing: 0.07em;
+    line-height: 48px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  span {
+    background-color: #067489;
+  }
+
+  #career-learn-more-wrap{
+    margin: 0 auto;
+    width: 960px;
+    height: 150px;
+    background-color: #eeeeee;
+    padding-top:43px;
+  }
+
+  #career-learn-more{
+    margin: 0 auto;
+    width: 45%;
+  }
+  #job-listings-wrap{
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    background-color: #eeeeee;
+    padding-top:43px;
+  }
+  #jobs{
+    padding-top:20px;
+  }
+  #open-jobs-image{
+    position: relative;
+    top: -50px;
+    right: 10px;
+    width: 215px;
+    float: left;
+  }
+  #job-listings{
+    position: relative;
+    margin-left:250px
+  }
+  #job-listings h2{
+    display: inline-block;
+    color: rgb( 81, 143, 204 );
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 18px;
+
+  }
+  #jobs-contact{
+    width: 180px;
+    position: relative;
+    left: 20px;
+    
+    font-size: 14px;
+  }
+  #jobs-contact a{
+    color:#5197b4;
+  }
+  h2#location{
+    padding-left:
+      183px;
+    
+  }
+  h2.values{
+    text-align: left;
+    color: #5197b4;
+    margin:0;
+  }
+  
+
+  .jobs-header{
+    display: table-row;
+  }
+  .jobs-pos, .jobs-loc{
+    display: table-cell;
+    text-transform: uppercase;
+    font-size: .8em;
+    width:255px;
+    vertical-align: middle;
+    color:#787878;
+  }
+
+
+  .jobs-item-image{
+    display: table-cell;
+    padding-left: 35px;
+    padding: 5px 0px 0px;
+  }
+
+  hr.embosed {
+    width: 101%;
+    height: 2px;
+    margin: 2px 0 0 -25px;
+    border: none;
+    background: #ddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #dddddd), color-stop(0.5, white));
+    background-image: -moz-linear-gradient(center top, #dddddd 50%, white 50%);
+  }
+  #career-testimonial li{
+      list-style: none;
+    }
+    
+   .slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+  
+  .slides {
+    height: 100%;
+    /* Simple clear fix */
+    overflow: hidden;
+    list-style: none;
+    -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+         -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+            transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  }
+  
+    .slide {
+      height: 100%;
+      float: left;
+      clear: none;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+     .testimonial{
+      background-image: url('/wp-content/themes/boilerplate/images/career/testimonialslider1.png');
+    }
+     .testimonial2{
+      background-image: url('/wp-content/themes/boilerplate/images/career/testimonialslider1.png');
+    }
+     .testimonial3{
+      background-image: url('/wp-content/themes/boilerplate/images/career/testimonialslider1.png');
+    }
+    .slider-arrows {}
+
+      .slider-arrow {
+        position: absolute;
+        display: block;
+        padding: 35px 20px;
+        margin-bottom: -50px;
+       
+        
+        color: #ccc;
+        text-decoration: none;
+      }
+
+      
+
+        .slider-arrow--right { 
+          bottom: 50%; 
+          right: 0px; 
+          background-image: url('/wp-content/themes/boilerplate/images/career/arrowright.png');
+          background-repeat:no-repeat;
+        }
+        .slider-arrow--left { 
+          bottom: 50%; 
+          left: 0px; 
+          background-image: url('/wp-content/themes/boilerplate/images/career/arrowleft.png');
+          background-repeat:no-repeat;
+        }
+
+    .slider-nav {
+      position: absolute;
+      bottom: 30px;
+    }
+
+      .slider-nav__item {
+        width: 12px;
+        height: 12px;
+        float: left;
+        clear: none;
+        display: block;
+        margin: 0 5px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+      }
+
+        .slider-nav__item:hover { background: #fff; }
+        .slider-nav__item--current { background: #fff; }
+
+
+}
+

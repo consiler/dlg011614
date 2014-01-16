@@ -1,0 +1,22 @@
+#leadership-banner-bg {
+  @extend .abstract-internal-header-wrap;
+}
+#leadership-banner {
+  height: 455px;
+  background-image: url(images/leadership/default.jpg);
+  & > img {
+    display: none;
+  }
+}
+#leadership-main {
+  margin-top: 35px;
+  padding-bottom: 60px;
+}
+#leadership-sidebar {
+  div, p {
+    color: $dialogblue;
+  }
+}
+#mark-content, #bob-content, #rob-content, #mark-sidebar, #bob-sidebar, #rob-sidebar {
+  display: none;
+}

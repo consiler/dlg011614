@@ -1,0 +1,121 @@
+#nav-menu-wrap {
+    background-color: #ccc;
+    background-image: url(images/nav-bg.gif);
+    position: relative;
+    z-index: 1013;
+    box-shadow: 0px 3px 2.73px 0.27px rgba(0, 0, 0, 0.2);
+    &.shade {
+        -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+        box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    }
+}
+#nav-menu {
+    position: relative;
+    height: 71px;
+    a {
+        color: #52524f;
+        font-family: $nav-font-stack;
+        font-size: 13px;
+        letter-spacing: 0.135em;
+        text-transform: uppercase;
+        &:hover {
+            color: #156dc3;
+            text-shadow: 0px 0px 3px rgba(255,255,255,0.9);
+        }
+    }
+    li.current_page_parent a, li.current_page_item a {
+        color: #156dc3;
+        text-shadow: 0px 0px 3px rgba(255,255,255,0.9);
+    }
+}
+#nav-menu a {
+    
+}
+
+#menu-top-navigation {
+    overflow: hidden;
+    position: absolute;
+    left: 180px;
+    top: 40px;
+}
+#menu-top-navigation > li {
+    float: left;
+    margin-right: 35px;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+/* Sliding submenu wrapper */
+.sub-menu { display: none; }
+/* Individual submenus are hidden and shown using display: none/block in one wrapper menu that slides
+down every time */
+#nav-menu-slide {
+    background-color: #fff;
+    position: absolute;
+    height: 95px;
+    width: 100%;
+    z-index: 1012;
+    top: -24px;
+    background-image: url(images/nav-slide-menu-bg.jpg);
+    -webkit-box-shadow:  0px 3px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:  0px 3px 15px 0px rgba(0, 0, 0, 0.4);
+    .sub-menu {
+        display: none;
+        float: left;
+        position: relative;
+        div {
+            width: 180px;
+            float: left;
+            padding-top: 12px;
+        }
+        div > li {
+            padding-top: 3px;
+        }
+        div > li > a {
+            font-family: $nav-font-stack;
+            text-transform: uppercase;
+            color: #565653;
+            font-size: 11px;
+            display: block;
+            line-height: 15px;
+            &:hover {
+                color: #156dc3;
+            }
+        }
+    }
+}
+#nav-menu-slide-center {
+    overflow: hidden;
+    padding-left: 180px;
+}
+#sub-menu-wrap {
+    background-color: #333;
+    background-image: url(images/sub-nav-bg.jpg);
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1011;
+    a {
+        font-size: 12px;
+        color: #565653;
+        font-family: $nav-font-stack;
+        letter-spacing: 0.135em;
+        text-transform: uppercase;
+        &:hover {
+            color: #156dc3;
+        }
+    }
+}
+#sub-menu {
+    height: 27px;
+}
+#sub-menu > div {
+    position: relative;
+    left: 180px;
+}
+#sub-menu > div > a {
+    position: relative;
+    top: 3px;
+    display: block;
+    line-height: 27px;
+}

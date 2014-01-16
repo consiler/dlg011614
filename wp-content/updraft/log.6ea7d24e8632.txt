@@ -1,0 +1,233 @@
+0000.073 (0) Opened log file at time: Thu, 09 Jan 2014 20:01:58 +0000
+0000.099 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.8.5 WP: 3.8 PHP: 5.2.17 (Linux web1007.opentransfer.com 2.6.18-371.3.1.el5xen #1 SMP Thu Dec 5 13:32:01 EST 2013 x86_64) MySQL: 5.1.68-community-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.9M | 25M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.101 (0) Free space on disk containing Updraft's temporary directory: 37616.6 Mb
+0000.105 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.108 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.218 (0) Requesting semaphore lock (fd)
+0000.225 (0) Set semaphore last lock (fd) time to 2014-01-09 20:01:58
+0000.227 (0) Semaphore lock (fd) complete
+0000.238 (0) Backup run: resumption=0, nonce=6ea7d24e8632, begun at=1389297718 (0s ago), job type=backup
+0000.240 (0) Scheduling a resumption (1) after 300 seconds (1389298018) in case this run gets aborted
+0000.321 (0) Checking if we have a zip executable available
+0000.360 (0) Testing: /usr/bin/zip
+0000.532 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.540 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.541 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.543 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.579 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.582 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.583 (0) Stderr output: 
+0000.585 (0) Stderr output: 
+0000.585 (0) Stderr output: 
+0000.710 (0) Working binary zip found: /usr/bin/zip
+0000.714 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.717 (0) Creation of backups of directories: beginning
+0000.725 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0004.834 (0) Total entities for the zip file: 114 directories, 671 files, 11.3 Mb
+0004.836 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1.5 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0004.870 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: size is now: 0.00 Mb
+0004.885 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 100 files added (on-disk size: 23.7 Kb)
+0004.896 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 200 files added (on-disk size: 23.7 Kb)
+0004.905 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 300 files added (on-disk size: 23.7 Kb)
+0004.912 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 400 files added (on-disk size: 23.7 Kb)
+0004.920 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 500 files added (on-disk size: 23.7 Kb)
+0004.921 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 Mb, 671 files batched, 501 (502) added so far); re-opening (prior size: 23.7 Kb)
+0021.582 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: size is now: 2.90 Mb
+0021.613 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: 600 files added (on-disk size: 2955.7 Kb)
+0025.386 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip.tmp: size is now: 3.80 Mb
+0025.432 (0) Created plugins zip (0) - 3937.3 Kb in 24.6 s (160.1 Kb/s) (SHA1 checksum: dc4fec0fdd37c3f1189556a2d7e2188b07eb7825)
+0025.438 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0026.537 (0) Total entities for the zip file: 33 directories, 270 files, 4.2 Mb
+0026.545 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0026.552 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0040.957 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-themes.zip.tmp: size is now: 3.00 Mb
+0040.988 (0) Created themes zip (0) - 3098.9 Kb in 15.5 s (199.3 Kb/s) (SHA1 checksum: 767e5777be676a66b096489bd5d89b41c7cb661a)
+0040.993 (0) Looking for candidates to back up in: /hsphere/local/home/c72738/development.dialoggroup.com/wp-content/uploads
+0040.995 (0) finding files: 1-150x150.jpg: adding to list
+0040.996 (0) finding files: backwpup-98372-temp: skipping: excluded by options (glob)
+0040.997 (0) finding files: 2014: adding to list
+0040.998 (0) finding files: backwpup-a6fdb-logs: skipping: excluded by options (glob)
+0040.999 (0) finding files: 2013: adding to list
+0041.001 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0041.206 (0) Total entities for the zip file: 6 directories, 588 files, 28.2 Mb
+0041.215 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0041.221 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0041.228 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0041.235 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0041.242 (0) Zip: backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0041.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23.8 Mb, 588 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0041.330 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: size is now: 0.00 Mb
+0066.525 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip.tmp: size is now: 23.30 Mb
+0071.906 (0) Created uploads zip (0) - 28331.9 Kb in 30.9 s (916.8 Kb/s) (SHA1 checksum: 3eb0fbef145773d38c3df76d153dabd3c0570297)
+0071.917 (0) Beginning backup of other directories found in the content directory (index: 0)
+0071.919 (0) Looking for candidates to back up in: /hsphere/local/home/c72738/development.dialoggroup.com/wp-content
+0071.920 (0) finding files: advanced-cache.php: adding to list
+0071.922 (0) finding files: uploads: skipping: this is the uploads directory
+0071.923 (0) finding files: themes: skipping: this is the themes directory
+0071.924 (0) finding files: cache: skipping: excluded by options
+0071.926 (0) finding files: index.php: adding to list
+0071.927 (0) finding files: wp-cache-config.php: adding to list
+0071.928 (0) finding files: updraft: skipping: this is the updraft directory
+0071.929 (0) finding files: plugins: skipping: this is the plugins directory
+0071.931 (0) finding files: upgrade: skipping: excluded by options
+0071.935 (0) Total entities for the zip file: 0 directories, 3 files, 0 Mb
+0072.000 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-others.zip.tmp: size is now: 0.00 Mb
+0072.009 (0) Created others zip (0) - 2.7 Kb in 0.1 s (36.4 Kb/s) (SHA1 checksum: 00cdaad5b049b49f8f891159d6ef93dfc3e333b2)
+0072.020 (0) Saving backup status to database (elements: 8)
+0072.029 (0) Beginning creation of database dump
+0072.047 (0) Testing: /usr/bin/mysqldump
+0072.321 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0072.339 (0) Table wp_options: Total expected rows (approximate): 314
+0072.598 (0) Table wp_options: Total rows added: 253 in 0.26 seconds
+0072.600 (0) Table wp_options: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_options.table.gz - 160 Kb)
+0072.609 (0) Table wp_users: Total expected rows (approximate): 4
+0072.620 (0) Table wp_users: Total rows added: 4 in 0.01 seconds
+0072.622 (0) Table wp_users: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_users.table.gz - 0 Kb)
+0072.629 (0) Table wp_usermeta: Total expected rows (approximate): 65
+0072.641 (0) Table wp_usermeta: Total rows added: 65 in 0.01 seconds
+0072.643 (0) Table wp_usermeta: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_usermeta.table.gz - 0 Kb)
+0072.802 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0072.821 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0072.823 (0) Table wp_commentmeta: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_commentmeta.table.gz - 0 Kb)
+0072.884 (0) Table wp_comments: Total expected rows (approximate): 1
+0072.899 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0072.901 (0) Table wp_comments: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_comments.table.gz - 0 Kb)
+0073.000 (0) Table wp_links: Total expected rows (approximate): 0
+0073.010 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0073.014 (0) Table wp_links: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_links.table.gz - 0 Kb)
+0073.034 (0) Table wp_postmeta: Total expected rows (approximate): 36134
+0073.638 (0) Table wp_postmeta: binary mysqldump finished (writes: 34) in 0.60 seconds
+0073.640 (0) Table wp_postmeta: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_postmeta.table.gz - 304 Kb)
+0073.679 (0) Table wp_posts: Total expected rows (approximate): 1098
+0074.271 (0) Table wp_posts: Total rows added: 1201 in 0.59 seconds
+0074.275 (0) Table wp_posts: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_posts.table.gz - 192 Kb)
+0074.284 (0) Table wp_term_relationships: Total expected rows (approximate): 53
+0074.294 (0) Table wp_term_relationships: Total rows added: 53 in 0.01 seconds
+0074.296 (0) Table wp_term_relationships: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_term_relationships.table.gz - 0 Kb)
+0074.303 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0074.313 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.01 seconds
+0074.314 (0) Table wp_term_taxonomy: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_term_taxonomy.table.gz - 0 Kb)
+0074.320 (0) Table wp_terms: Total expected rows (approximate): 5
+0074.334 (0) Table wp_terms: Total rows added: 5 in 0.01 seconds
+0074.335 (0) Table wp_terms: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_terms.table.gz - 0 Kb)
+0074.362 (0) Table wp_formmaker: Total expected rows (approximate): 0
+0074.377 (0) Table wp_formmaker: Total rows added: 0 in 0.01 seconds
+0074.379 (0) Table wp_formmaker: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker.table.gz - 0 Kb)
+0074.438 (0) Table wp_formmaker_sessions: Total expected rows (approximate): 0
+0074.461 (0) Table wp_formmaker_sessions: Total rows added: 0 in 0.02 seconds
+0074.462 (0) Table wp_formmaker_sessions: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_sessions.table.gz - 0 Kb)
+0074.525 (0) Table wp_formmaker_submits: Total expected rows (approximate): 0
+0074.534 (0) Table wp_formmaker_submits: Total rows added: 0 in 0.01 seconds
+0074.536 (0) Table wp_formmaker_submits: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_submits.table.gz - 0 Kb)
+0074.554 (0) Table wp_formmaker_themes: Total expected rows (approximate): 0
+0074.562 (0) Table wp_formmaker_themes: Total rows added: 0 in 0.01 seconds
+0074.564 (0) Table wp_formmaker_themes: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_themes.table.gz - 0 Kb)
+0074.912 (0) Table wp_formmaker_views: Total expected rows (approximate): 0
+0074.929 (0) Table wp_formmaker_views: Total rows added: 0 in 0.01 seconds
+0074.930 (0) Table wp_formmaker_views: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_views.table.gz - 0 Kb)
+0074.999 (0) Table wp_ninja_forms: Total expected rows (approximate): 1
+0075.015 (0) Table wp_ninja_forms: Total rows added: 1 in 0.01 seconds
+0075.018 (0) Table wp_ninja_forms: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms.table.gz - 0 Kb)
+0075.135 (0) Table wp_ninja_forms_fav_fields: Total expected rows (approximate): 13
+0075.166 (0) Table wp_ninja_forms_fav_fields: Total rows added: 18 in 0.03 seconds
+0075.167 (0) Table wp_ninja_forms_fav_fields: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_fav_fields.table.gz - 0 Kb)
+0075.236 (0) Table wp_ninja_forms_fields: Total expected rows (approximate): 4
+0075.254 (0) Table wp_ninja_forms_fields: Total rows added: 4 in 0.02 seconds
+0075.255 (0) Table wp_ninja_forms_fields: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_fields.table.gz - 0 Kb)
+0075.273 (0) Table wp_ninja_forms_subs: Total expected rows (approximate): 0
+0075.282 (0) Table wp_ninja_forms_subs: Total rows added: 0 in 0.01 seconds
+0075.283 (0) Table wp_ninja_forms_subs: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_subs.table.gz - 0 Kb)
+0075.333 (0) Table wp_wpgmza: Total expected rows (approximate): 3
+0075.344 (0) Table wp_wpgmza: Total rows added: 3 in 0.01 seconds
+0075.345 (0) Table wp_wpgmza: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza.table.gz - 0 Kb)
+0075.409 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0075.419 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.01 seconds
+0075.420 (0) Table wp_wpgmza_categories: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_categories.table.gz - 0 Kb)
+0075.479 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0075.492 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.01 seconds
+0075.493 (0) Table wp_wpgmza_maps: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_maps.table.gz - 0 Kb)
+0075.513 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0075.524 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.01 seconds
+0075.525 (0) Table wp_wpgmza_polygon: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_polygon.table.gz - 0 Kb)
+0075.570 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0075.581 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.01 seconds
+0075.583 (0) Table wp_wpgmza_polylines: finishing file (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_polylines.table.gz - 0 Kb)
+0075.589 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_options.table.gz (1/25): adding to final database dump
+0075.792 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_users.table.gz (2/25): adding to final database dump
+0075.794 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_usermeta.table.gz (3/25): adding to final database dump
+0075.798 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_commentmeta.table.gz (4/25): adding to final database dump
+0075.799 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_comments.table.gz (5/25): adding to final database dump
+0075.801 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_links.table.gz (6/25): adding to final database dump
+0075.803 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_postmeta.table.gz (7/25): adding to final database dump
+0076.280 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_posts.table.gz (8/25): adding to final database dump
+0076.606 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_term_relationships.table.gz (9/25): adding to final database dump
+0076.609 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_term_taxonomy.table.gz (10/25): adding to final database dump
+0076.621 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_terms.table.gz (11/25): adding to final database dump
+0076.623 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker.table.gz (12/25): adding to final database dump
+0076.626 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_sessions.table.gz (13/25): adding to final database dump
+0076.628 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_submits.table.gz (14/25): adding to final database dump
+0076.630 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_themes.table.gz (15/25): adding to final database dump
+0076.632 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_formmaker_views.table.gz (16/25): adding to final database dump
+0076.635 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms.table.gz (17/25): adding to final database dump
+0076.637 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_fav_fields.table.gz (18/25): adding to final database dump
+0076.643 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_fields.table.gz (19/25): adding to final database dump
+0076.646 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_ninja_forms_subs.table.gz (20/25): adding to final database dump
+0076.648 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza.table.gz (21/25): adding to final database dump
+0076.650 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_categories.table.gz (22/25): adding to final database dump
+0076.652 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_maps.table.gz (23/25): adding to final database dump
+0076.654 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_polygon.table.gz (24/25): adding to final database dump
+0076.656 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db-table-wp_wpgmza_polylines.table.gz (25/25): adding to final database dump
+0076.658 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db.gz: finished writing out complete database file (688 Kb)
+0076.669 (0) Total database tables backed up: 25 (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db.gz: checksum (SHA1): 6ae76ef42a2b208921e7c0a5d333d64ab2a05ed5)
+0076.673 (0) Saving backup history
+0076.685 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0076.686 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0076.687 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0076.689 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-others.zip: others: This file has not yet been successfully uploaded: will queue
+0076.690 (0) backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db.gz: db: This file has not yet been successfully uploaded: will queue
+0076.698 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0076.702 (0) Cloud backup selection: none
+0076.703 (0) No remote despatch: user chose no remote backup service
+0076.706 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0076.709 (0) Number of backup sets in history: 6
+0076.711 (0) Examining backup set with datestamp: 1389297718 (Jan 09 2014 20:01:58)
+0076.712 (0) 1389297718: db: this set includes a database (backup_2014-01-09-2001_Dialog_Group_6ea7d24e8632-db.gz); db count is now 1
+0076.715 (0) 1389297718: this backup set remains non-empty (1/1); will retain in history
+0076.716 (0) Examining backup set with datestamp: 1389211311 (Jan 08 2014 20:01:51)
+0076.718 (0) 1389211311: db: this set includes a database (backup_2014-01-08-2001_Dialog_Group_d8908ab798e9-db.gz); db count is now 2
+0076.721 (0) 1389211311: this backup set remains non-empty (1/1); will retain in history
+0076.722 (0) Examining backup set with datestamp: 1389124920 (Jan 07 2014 20:02:00)
+0076.723 (0) 1389124920: db: this set includes a database (backup_2014-01-07-2002_Dialog_Group_f70dc0b09f4d-db.gz); db count is now 3
+0076.726 (0) 1389124920: this backup set remains non-empty (1/1); will retain in history
+0076.728 (0) Examining backup set with datestamp: 1389038508 (Jan 06 2014 20:01:48)
+0076.729 (0) 1389038508: db: this set includes a database (backup_2014-01-06-2001_Dialog_Group_9be3322647a1-db.gz); db count is now 4
+0076.732 (0) 1389038508: this backup set remains non-empty (1/1); will retain in history
+0076.734 (0) Examining backup set with datestamp: 1388961472 (Jan 05 2014 22:37:52)
+0076.735 (0) 1388961472: db: this set includes a database (backup_2014-01-05-2237_Dialog_Group_7d028a0ad9bb-db.gz); db count is now 5
+0076.738 (0) 1388961472: this backup set remains non-empty (1/1); will retain in history
+0076.747 (0) Examining backup set with datestamp: 1388867067 (Jan 04 2014 20:24:27)
+0076.748 (0) 1388867067: db: this set includes a database (backup_2014-01-04-2024_Dialog_Group_846b89610629-db.gz); db count is now 6
+0076.749 (0) 1388867067: db: over retain limit (5); will delete this database
+0076.750 (0) Delete file: backup_2014-01-04-2024_Dialog_Group_846b89610629-db.gz, service=none
+0076.752 (0) Deleting local copy (backup_2014-01-04-2024_Dialog_Group_846b89610629-db.gz)
+0076.801 (0) plugins: 1388867067: over retain limit (5); will delete this file (backup_2014-01-04-2024_Dialog_Group_846b89610629-plugins.zip)
+0076.802 (0) themes: 1388867067: over retain limit (5); will delete this file (backup_2014-01-04-2024_Dialog_Group_846b89610629-themes.zip)
+0076.804 (0) uploads: 1388867067: over retain limit (5); will delete this file (backup_2014-01-04-2024_Dialog_Group_846b89610629-uploads.zip)
+0076.805 (0) others: 1388867067: over retain limit (5); will delete this file (backup_2014-01-04-2024_Dialog_Group_846b89610629-others.zip)
+0076.806 (0) Delete file: backup_2014-01-04-2024_Dialog_Group_846b89610629-plugins.zip, service=none
+0076.808 (0) Deleting local copy (backup_2014-01-04-2024_Dialog_Group_846b89610629-plugins.zip)
+0076.914 (0) Delete file: backup_2014-01-04-2024_Dialog_Group_846b89610629-themes.zip, service=none
+0076.916 (0) Deleting local copy (backup_2014-01-04-2024_Dialog_Group_846b89610629-themes.zip)
+0077.020 (0) Delete file: backup_2014-01-04-2024_Dialog_Group_846b89610629-uploads.zip, service=none
+0077.239 (0) Deleting local copy (backup_2014-01-04-2024_Dialog_Group_846b89610629-uploads.zip)
+0077.525 (0) Delete file: backup_2014-01-04-2024_Dialog_Group_846b89610629-others.zip, service=none
+0077.527 (0) Deleting local copy (backup_2014-01-04-2024_Dialog_Group_846b89610629-others.zip)
+0077.530 (0) 1388867067: this backup set is now empty; will remove from history
+0077.531 (0) 1388867067: deleting log file (log.846b89610629.txt)
+0077.532 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0077.538 (0) Resume backup (6ea7d24e8632, 0): finish run
+0077.541 (0) Decremented the semaphore (fd) by 1
+0077.543 (0) Semaphore (fd) unlocked
+0077.544 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0077.549 (0) Sending email ('Files and database') report (attachments: 0, size: 0 Kb) to: charl...
+0078.008 (0) The backup apparently succeeded and is now complete
