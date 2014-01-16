@@ -82,7 +82,7 @@ $arrow-size: 30px;
     border-top: $arrow-size solid transparent;
     border-bottom: $arrow-size solid transparent;
     border-left: $arrow-size solid #fff;
-    border-left: $arrow-size solid rgba(255,255,255,0.5);
+    
     right: 20px;
 }
 #left-link {
@@ -91,6 +91,6 @@ $arrow-size: 30px;
     border-top: $arrow-size solid transparent;
     border-bottom: $arrow-size solid transparent; 
     border-right: $arrow-size solid #fff;
-    border-right: $arrow-size solid rgba(255,255,255,0.5);
+
     left: 20px;
 }

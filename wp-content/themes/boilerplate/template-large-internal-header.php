@@ -9,10 +9,10 @@
       </header>
       <?php
         if(get_field('left_link_target')){ ?>
-      <a href="<?php get_field('left_link_target'); ?>" class="arrow" id="left-link"></a>
+      <a href="<?php get_field('left_link_target'); ?>" class="arrow" id="left-link" style="border-right: 30px solid <?php the_field('arrow_color')?>;"></a>
       <?php }
       if(get_field('right_link_target')) { ?>
-      <a href="<?php get_field('right_link_target'); ?>" class="arrow" id="right-link"></a>
+      <a href="<?php get_field('right_link_target'); ?>" class="arrow" id="right-link" style="border-left: 30px solid <?php the_field('arrow_color')?>;"></a>
       <?php } ?>
     </div>
   </div>
